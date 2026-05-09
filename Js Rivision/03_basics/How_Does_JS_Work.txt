@@ -1,0 +1,27 @@
+Exicution Phase:
+Global Exicution 
+
+NVP + Thread -> Memory phase -> Exicution phase
+
+
+Call stack
+
+
+function one(){
+    console.log("I am one");
+    two();
+}
+
+function two(){
+    console.log("I am two");
+    three();
+}
+
+function three(){
+    console.log("I am two");
+}
+
+one();  // Call Stack [ one() -> two() -> three() ], after exicution out (LIFO) three() -> two() ->one()
+two();
+three();
+
