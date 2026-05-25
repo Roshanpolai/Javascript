@@ -27,8 +27,10 @@ console.log(typeof null);      //object
 /*<----- Typeof ----->
 null  -> object
 undefined -> undefined
+NaN -> number
+
 String -> string
 Number -> number
 boolean -> boolean
-Symbol -> Symbol                     
+Symbol -> Symbol   
 */
